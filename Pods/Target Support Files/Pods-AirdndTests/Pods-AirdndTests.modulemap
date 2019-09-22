@@ -1,0 +1,6 @@
+framework module Pods_AirdndTests {
+  umbrella header "Pods-AirdndTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
