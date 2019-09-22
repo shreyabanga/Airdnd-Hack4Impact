@@ -13,6 +13,7 @@
 		B838CDF52335B80200A6EBC9 /* hostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B838CDF42335B80200A6EBC9 /* hostViewController.swift */; };
 		B838CDF92335D12E00A6EBC9 /* userPropertiesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B838CDF82335D12E00A6EBC9 /* userPropertiesViewController.swift */; };
 		B8529A382336F12B006940E6 /* userRentedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8529A372336F12B006940E6 /* userRentedViewController.swift */; };
+		B8529A3C233719FA006940E6 /* profileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8529A3B233719FA006940E6 /* profileViewController.swift */; };
 		B87647552336966C00B69304 /* rentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B87647542336966C00B69304 /* rentViewController.swift */; };
 		B8A65392232B006500063D52 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8A65391232B006500063D52 /* AppDelegate.swift */; };
 		B8A65394232B006500063D52 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8A65393232B006500063D52 /* ViewController.swift */; };
@@ -55,6 +56,7 @@
 		B838CDF42335B80200A6EBC9 /* hostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hostViewController.swift; sourceTree = "<group>"; };
 		B838CDF82335D12E00A6EBC9 /* userPropertiesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = userPropertiesViewController.swift; sourceTree = "<group>"; };
 		B8529A372336F12B006940E6 /* userRentedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = userRentedViewController.swift; sourceTree = "<group>"; };
+		B8529A3B233719FA006940E6 /* profileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = profileViewController.swift; sourceTree = "<group>"; };
 		B87647542336966C00B69304 /* rentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rentViewController.swift; sourceTree = "<group>"; };
 		B8A6538E232B006500063D52 /* Airdnd.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Airdnd.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8A65391232B006500063D52 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -154,6 +156,7 @@
 				B838CDF82335D12E00A6EBC9 /* userPropertiesViewController.swift */,
 				B87647542336966C00B69304 /* rentViewController.swift */,
 				B8529A372336F12B006940E6 /* userRentedViewController.swift */,
+				B8529A3B233719FA006940E6 /* profileViewController.swift */,
 			);
 			path = Airdnd;
 			sourceTree = "<group>";
@@ -437,6 +440,7 @@
 				B838CDF92335D12E00A6EBC9 /* userPropertiesViewController.swift in Sources */,
 				B838CDF52335B80200A6EBC9 /* hostViewController.swift in Sources */,
 				B8A653C62331DF4300063D52 /* typeOfUserViewController.swift in Sources */,
+				B8529A3C233719FA006940E6 /* profileViewController.swift in Sources */,
 				B8529A382336F12B006940E6 /* userRentedViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

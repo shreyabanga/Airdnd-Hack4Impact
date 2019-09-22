@@ -17,13 +17,7 @@ import Foundation
 
 class typeOfUserViewController: UIViewController, FUIAuthDelegate {
     
-    
-    @IBOutlet weak var profileLast: UILabel!
-    @IBOutlet weak var profileFirst: UILabel!
-    @IBOutlet weak var profileEmail: UILabel!
-    @IBOutlet weak var profileMode: UILabel!
-  
-    
+
     var uid:String = ""
     var email:String = ""
     var name:String = ""
@@ -44,59 +38,16 @@ class typeOfUserViewController: UIViewController, FUIAuthDelegate {
             email = user.email!
             name = user.displayName!
             
-            //this is getting info from the auth section of firebase
-        }
-        
-        setUp()
-        
-    }
-    
-    
-    func setUp() { //for profile VC
-        
-        ref.child("Users").child(self.uid).observe(.value) { (snapshot) in
-        
             
-            let userModes:String  = (snapshot.childSnapshot(forPath: "userMode").value as! String)
-    
-        
-            self.profileMode.text = userModes
-            
+           
         }
-        
-        let nameArray = name.components(separatedBy: " ")
-        
-        profileFirst.text = nameArray[0]
-        profileLast.text = nameArray[1]
-        profileEmail.text = email
-        
-        
-   
-        
        
+        
+      
+        
     }
     
-    
-    
-    @IBAction func logOutButton(_ sender: Any) {
-        
-        print(Auth.auth().currentUser?.displayName!)
-        
-        do {
-            try Auth.auth().signOut()
-        } catch let error {
-            print(error)
-        }
-        
-    print(Auth.auth().currentUser?.displayName!)
-        
-        performSegue(withIdentifier: "logOutSegue", sender: self)
-        
-        
 
-        
-    }
-    
     
         
     @IBAction func vendorButton(_ sender: Any) {
