@@ -45,9 +45,10 @@ class profileViewController: UIViewController, FUIAuthDelegate {
             //nameArray[1]
             profileEmail.text = email
             //this is getting info from the auth section of firebase
+            profileFirst.text = nameArray[0]
+            profileLast.text = nameArray[1]
+            
         }
-        profileFirst.text = "Yes"
-        profileLast.text = "Yes"
         
         setUp()
         
